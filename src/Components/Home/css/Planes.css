@@ -1,0 +1,121 @@
+.fondo-planes{
+    background-color: #BDE5F9;
+}
+
+/* Tarjetas Centradas en su Contenedor */
+.row {
+    display: flex; /* Asegura que los hijos (las columnas) se alineen en una fila */
+    justify-content: center; /* Centra las columnas en la fila */
+}
+
+/* Título del Plan */
+.basic-plan-header {
+    background-color: #FFD700; /* Amarillo */
+    color: #0f1247;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pro-plan-header {
+    background-color: #00BFFF; /* Azul claro */
+    color: #0f1247;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Fondo Azul Marino sólo en la Sección de Precio */
+.price-section {
+    background-color: #0f1247; /* Fondo azul marino */
+    color: #ffffff;
+    padding: 20px; /* Asegura que el padding sea consistente */
+    border-bottom: none;
+}
+
+.plan-title {
+    font-size: 1.6rem; /* Reduce el tamaño */
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.price {
+    font-size: 2.3rem; /* Reduce el tamaño */
+    font-weight: bold;
+    margin: 0;
+    color: #ffffff;
+}
+
+.billing-text {
+    font-size: 0.85rem; /* Reduce el tamaño */
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+/* Lista de Características */
+.feature-list {
+    list-style-type: none;
+    padding: 15px;
+    color: #333;
+    font-size: 0.85rem; /* Reduce el tamaño */
+    background-color: #f9f9f9;
+    margin: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.feature-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 6px 0; /* Reduce el padding */
+}
+
+.feature-list li:last-child {
+    border-bottom: none;
+}
+
+/* Botón Personalizado */
+.custom-btn {
+    background-color: #FFD700;
+    color: #0f1247;
+    border: none;
+    padding: 10px 20px; /* Asegura que el padding sea adecuado para el botón */
+    font-weight: bold;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block; /* Asegura que el botón sea un bloque en línea */
+    margin: 10px 0; /* Espaciado superior e inferior para el botón */
+}
+
+.custom-btn:hover {
+    background-color: #FFC107;
+    color: #0f1247;
+}
+
+/* Estilo de la Tarjeta de Precios */
+.pricing-card {
+    max-width: 300px; /* Limita el ancho máximo de la tarjeta */
+    width: 100%; /* Asegura que la tarjeta ocupe el 100% del ancho disponible */
+    margin: 50px; /* Añade un margen reducido entre tarjetas */
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+/* Ajustes Responsivos */
+@media (max-width: 576px) {
+    .col-md-6 {
+        flex: 0 0 100%; /* Las tarjetas ocuparán todo el ancho en pantallas pequeñas */
+        max-width: 100%;
+    }
+}

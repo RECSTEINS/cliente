@@ -1,0 +1,23 @@
+.logo{
+  height: 40px;
+}
+
+
+.custom-navbar {
+  background-color: #001147; /* Fondo personalizado para el header */
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff; /* Color del texto de los enlaces */
+  transition: color 0.3s ease; /* Animación de transición*/
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffb900; /* Color al pasar el ratón sobre los enlaces */
+}
+
+.custom-navbar .btn-warning {
+  color: #001147; /*  botón */
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

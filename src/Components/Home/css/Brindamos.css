@@ -1,0 +1,87 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+.fondo-beneficios{
+    background-color: #ffff;
+}
+
+.styled-card {
+    background-color: #BDE5F9;
+    color: #ffffff; 
+    border: none; 
+    border-radius: 15px; 
+    overflow: hidden;
+}
+
+.circle-imagen-1 {
+    width: 450px;
+    height: 200px;
+    background-image: url('../../../Assets/imagen8.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.circle-imagen-2 {
+    width: 450px;
+    height: 200px;
+    background-image: url('../../../Assets/imagen9.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.circle-imagen-3 {
+    width: 450px;
+    height: 200px;
+    background-image: url('../../../Assets/imagen10.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.circle-imagen-4{
+    width: 450px;
+    height: 200px;
+    background-image: url('../../../Assets/imagen11.jpg');
+    background-size: cover; 
+    background-position: center;   
+}
+
+  
+  .styled-card .card-body {
+    background-color: #070C33; 
+    padding: 50px;
+    margin-top: -30px;
+    color: #ffffff;
+  }
+  
+  .styled-card .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: -20px;
+    color: #FFC700; 
+  }
+  
+  .styled-card .card-text {
+    font-size: 0.9em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #d1d1e9; 
+    text-align: justify;
+  }
+  
+  .styled-card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1); 
+    background-color: #070C33;
+  }
+
+.carousel{
+    margin-top: 20px;
+}

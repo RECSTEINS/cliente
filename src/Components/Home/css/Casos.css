@@ -1,0 +1,84 @@
+.fondo-casos{
+    background-color: #BDE5F9;
+    padding-bottom: 40px;
+}
+
+.highlight-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.highlight-text {
+    color: #FFC60C;
+    font-weight: bold;
+}
+
+.highlight-description{
+    font-size: 25px;
+
+}
+
+.highlight-icon{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.highlight-calif{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -1px;
+}
+
+.highlight-link{
+    font-size: 15px;
+}
+
+.circle-image-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    background-image: url('../../../Assets/imagen6.png');
+    background-size: cover; 
+    background-position: center;
+}
+
+.circle-image-2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    background-image: url('../../../Assets/imagen7.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.caso{
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #FFC60C;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+}
+  
+.cta-button:hover {
+    background-color: #e8bd30;
+    transition: .5s;
+    color: black;
+}
+
+.hihjlight-end{
+    font-weight: bold;
+}
+
+.highlight-button{
+    color: black;
+    padding-bottom: 10px;
+}

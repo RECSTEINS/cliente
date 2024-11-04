@@ -1,0 +1,35 @@
+.fondo-demo{
+    background-color: #070C33; 
+}
+
+.text-azul{
+  color: #03C7FD;
+}
+
+.section-container {
+    background-color: #070C33; 
+    color: #FFC247; 
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .section-text {
+    color: #EDECF4;
+    margin-bottom: 1.5rem;
+  }
+  .btn-demo {
+    background-color: #BDE5F9;
+    color: black;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+  } 
+  .image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }

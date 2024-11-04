@@ -1,0 +1,40 @@
+.footer {
+  background-color: #070C33;
+  color: #ffffff;
+}
+
+.footer h5 {
+  font-weight: bold;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer .form-control {
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.footer .btn-warning {
+  background-color: #f4f71d;
+  color: #0f1247;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer .btn-warning:hover {
+  background-color: #e4e60d;
+}
