@@ -1,5 +1,6 @@
 .fondo-funcionalidades{
-    background-color: #BDE5F9;
+    background-color: rgba(240, 240, 240, 1);
+    padding-top: 50px;
 }
 
 .funcionalidades-title{
@@ -17,32 +18,14 @@
     color: #f5b800;
 }
 
-.naranja{
-    color: #f5b800;
-}
-.features-list {
-    list-style-type: none; /* Quitar puntos de la lista */
-    padding: 0;
-    margin-top: 20px;
-    font-size: 1.1em;
-}
-.features-list li {
-    margin: 0.5em 0;
-    margin-top: 25px;
+.highlight-text-blue {
     font-weight: bold;
-    color: #555;
-    font-size: 20px;
+    color: #1990ff;
 }
-.features-list .highlight-item {
-    color: #000;
-    font-weight: bold;
-}
-.features-list .highlight-item::after {
-    content: "✓";
-    color: rgba(255, 198, 12, 1);/* Color del icono de check */
-    font-weight: bold;
-    margin-left: 10px;
-}
+
+
+
+
 .subheading {
     color: black;
     font-size: .9em;
@@ -60,6 +43,17 @@
 }
 
 .imagen13{
-    width: 600px;
-    transform: translate(13%, 10%);
+    transform: translate(100%, -30%);
+}
+
+.image-grid-funcionalidades {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;    
+}
+  
+.image-grid-funcionalidades img {
+    width: 100%;
+    border-radius: 10px; 
 }

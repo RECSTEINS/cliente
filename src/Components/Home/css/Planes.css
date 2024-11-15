@@ -1,5 +1,5 @@
 .fondo-planes{
-    background-color: #BDE5F9;
+    background-color: rgba(240, 240, 240, 1);
 }
 
 /* Tarjetas Centradas en su Contenedor */
@@ -20,8 +20,8 @@
 }
 
 .pro-plan-header {
-    background-color: #00BFFF; /* Azul claro */
-    color: #0f1247;
+    background-color: #FFC700;
+    color: white;
     text-align: center;
     padding: 10px;
     font-size: 1.2rem;
@@ -29,32 +29,38 @@
     border-top-right-radius: 8px;
 }
 
-/* Fondo Azul Marino sólo en la Sección de Precio */
+
 .price-section {
-    background-color: #0f1247; /* Fondo azul marino */
+    background-color: #050038; 
     color: #ffffff;
-    padding: 20px; /* Asegura que el padding sea consistente */
+    padding: 20px; 
     border-bottom: none;
 }
 
-.plan-title {
+.plan-title2{
     font-size: 1.6rem; /* Reduce el tamaño */
     font-weight: bold;
     margin-bottom: 0;
-    color: #ffffff;
+    color: white;
 }
 
 .price {
-    font-size: 2.3rem; /* Reduce el tamaño */
+    font-size: 2.3rem; 
     font-weight: bold;
     margin: 0;
     color: #ffffff;
 }
 
 .billing-text {
-    font-size: 0.85rem; /* Reduce el tamaño */
+    font-size: 0.85rem; 
     color: #ffffff;
     margin-top: 5px;
+}
+
+.billing-text2 {
+    font-size: 0.7rem; 
+    color: #ffffff;
+    margin-top: -5px;
 }
 
 /* Lista de Características */
@@ -62,7 +68,7 @@
     list-style-type: none;
     padding: 15px;
     color: #333;
-    font-size: 0.85rem; /* Reduce el tamaño */
+    font-size: 0.85rem; 
     background-color: #f9f9f9;
     margin: 0;
     border-bottom-left-radius: 8px;
@@ -76,6 +82,18 @@
 
 .feature-list li:last-child {
     border-bottom: none;
+}
+
+.icon-cancel-plan{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.icon-check-plan{
+    font-size: 20px;
+    font-weight: bold;
+    color: #55C20D;
 }
 
 /* Botón Personalizado */
@@ -118,4 +136,73 @@
         flex: 0 0 100%; /* Las tarjetas ocuparán todo el ancho en pantallas pequeñas */
         max-width: 100%;
     }
+}
+
+.plan-title{
+    color: rgba(5, 0, 56, 1);
+}
+
+.reducir-separacion .col-md-3,
+.reducir-separacion .col-md-4 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.basico-plan{
+    background-color: #FF8C00;
+}
+
+.premiun-list{
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+.premiun-list-text{
+    font-size: 9px;
+    margin-bottom: -1px;
+}
+
+.icon-check-plan2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #55C20D;
+}
+
+.elite-plan-header{
+    background-color: #006F6A;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.price-elite{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 3px;
+    color: #ffffff;
+}
+
+.billing-text-elite{
+    font-size: 0.85rem; 
+    color: #FFC700;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.billing-text-elite2{
+    font-size: 0.7rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+
+.alert-text-caso{
+    color: #FFC700;
+}
+
+.basic-plan-card-completa{
+    margin-top: 75px;
 }

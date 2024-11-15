@@ -8,28 +8,23 @@ function Funcionalidades(){
     return(
         <div class="fondo-funcionalidades">
             <div class="container py-5">
-                <div class="row">
-                    <div class="col-md-7 text-start aling-item-left">
-                        <p class="section-titles mx-5 funcionalidades-title">¿Por qué elegir <span class="highlight-text">Innoventa</span>?</p>
-                        <p class="subheading mx-5">Empieza a Gestionar con las Mejores Herramientas</p>
-                        <ul class="features-list mx-5">
-                            <li>Gestión de Usuarios y Roles</li>
-                            <li class="highlight-item">Control de Inventarios en Tiempo Real <i class="bi bi-check-circle-fill naranja"></i></li>
-                            <li>Gestión de Ventas y Pagos</li>
-                            <li>Reportes y Análisis</li>
-                            <li>Membresía Premium para Funciones Avanzadas</li>
-                        </ul>
+                <div class="row mx-5"> 
+                    <div class="col-12">
+                        <p class="section-titles mx-5 funcionalidades-title">¿Por qué elegir <span class="highlight-text-blue">Inno</span><span class="highlight-text">venta</span>?</p>
+                    </div>
+                    <div class="col-5 text-start aling-item-left">
+                        <p class="subheading mx-5">Porque inoventa gestiona las mejores herramientas , usuarios ,roles ,ventas y pagos.</p>
+                        <p class="subheading mx-5">también cuenta con un control de inventario en tiempo real y una membresía premium para funciones avanzadas.</p>
+                        
                     
                         <div class="d-flex justify-content-start gap-3 funcionalidades-button mx-5">
-                            <button class="btn btn-warning boton-comenzar">Comenzar <i class="bi bi-cart-fill"></i></button>
-                            <a class="funcionalidades-contact">Contáctanos</a>
+                            <button class="btn btn-warning boton-comenzar"><stong>Contacto </stong></button>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="image-grid imagen13">
-                            <img src={imagen13}/>
-                        </div>
+                    <div class="col-7 image-grid-funcionalidades">
+                        <img src={imagen13} class="grid-image-funcionalidades imagen13"/>  
                     </div>
+                    
                 </div>
             </div>
         </div>

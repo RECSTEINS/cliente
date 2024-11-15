@@ -1,0 +1,31 @@
+/* Estilo para el fondo de la imagen */
+.imagen-contenedor {
+    background-color: #004D40; /* Color de fondo para el área de la imagen */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Estilo de la imagen para redondear los bordes */
+.imagen-estilo {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Títulos y texto */
+.titulo-seccion {
+    font-size: 18px;
+    color: #009688; /* Color verde para "Innoventa Élite" */
+    font-weight: bold;
+}
+
+.subtitulo-seccion {
+    font-size: 28px;
+    color: #212529; /* Color oscuro para el subtítulo */
+    font-weight: bold;
+}
+
+.descripcion-seccion {
+    font-size: 16px;
+    color: #555; /* Color gris para el texto de descripción */
+    margin-top: 10px;
+}

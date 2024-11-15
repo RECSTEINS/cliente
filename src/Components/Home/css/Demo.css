@@ -33,3 +33,7 @@
     border-radius: 8px;
     object-fit: cover;
   }
+
+  .text-start-demo{
+    color: rgba(255, 199, 0, 1);
+  }

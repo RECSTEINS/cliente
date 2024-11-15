@@ -3,82 +3,82 @@
     padding-bottom: 40px;
 }
 
-.highlight-title{
-    font-size: 35px;
+.seccion-casos {
+    background-color: #e0f7ff;
+}
+
+.titulo-seccion-caso {
+    font-size: 28px;
     font-weight: bold;
+    color: rgba(7, 12, 51, 1);
 }
 
-.highlight-text {
-    color: #FFC60C;
-    font-weight: bold;
+.premium-caso {
+    color: #FFC700;
 }
 
-.highlight-description{
-    font-size: 25px;
-
+.subtitulo-seccion-caso {
+    font-size: 14px;
+    color: rgba(7, 12, 51, 1);
+    padding-bottom: 20px;
 }
 
-.highlight-icon{
-    font-size: 25px;
-    font-weight: bold;
+.caso-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
 }
 
-.highlight-calif{
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: -1px;
-}
-
-.highlight-link{
+.caso-card .card-title-caso {
     font-size: 15px;
-}
-
-.circle-image-1 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    background-image: url('../../../Assets/imagen6.png');
-    background-size: cover; 
-    background-position: center;
-}
-
-.circle-image-2{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    background-image: url('../../../Assets/imagen7.jpg');
-    background-size: cover; 
-    background-position: center;
-}
-
-.caso{
-    font-weight: bold;
-}
-
-.cta-button {
-    background-color: #FFC60C;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 25px;
-    padding: 0.5rem 1.5rem;
-    text-decoration: none;
-}
-  
-.cta-button:hover {
-    background-color: #e8bd30;
-    transition: .5s;
+    margin-top: -5px;
     color: black;
 }
 
-.hihjlight-end{
-    font-weight: bold;
+.caso-card .card-text {
+    color: black;
+    margin-top: -10px;
+    font-size: 18px;
 }
 
-.highlight-button{
+.caso-card .card-text2 {
     color: black;
-    padding-bottom: 10px;
+    margin-top: -25px;
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+
+.caso-alert{
+    color: #FFC700;
+    font-size: 30px;
+}
+
+.caso-icon{
+    font-size: 40px;
+    color: #070C33;
+}
+
+.caso-card .btn-link {
+    margin-top: 20px;
+    color: #070C33;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.caso-card .btn-link:hover {
+    text-decoration: underline;
+}
+
+.btn-warning {
+    background-color: #FFC700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.caso-img{
+    width: 170px; 
+    height: 170px;
 }

@@ -9,17 +9,21 @@ import Brindamos from "./Components/Home/Brindamos";
 import Planes from "./Components/Home/Planes";
 import Footer from "./Components/Home/Footer";
 import Resenas from "./Components/Home/Resenas";
+import Elite from "./Components/Home/Elite";
 
 function App() {
   return (
     <div>
       <NavBar/>
       <Presentacion/>
+
       <Funcionalidades/>
+ 
       <Demo/>
       <Planes/>
 
-      <Funcionamiento/>
+      <Elite/>
+      {/*<Funcionamiento/>*/}
       
       <Casos/>
       <Descuentos/>
